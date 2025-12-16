@@ -11,7 +11,7 @@ dotenv.config();
 
 const Parking = require("../../models/Parking");
 const ParkingLot = require("../../models/ParkingLot");
-
+ 
 const errorMessage = err => {
   if (typeof err === "string") {
     return err;
